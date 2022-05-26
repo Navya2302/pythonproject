@@ -1,0 +1,7 @@
+ref=open("xyz.txt","w")
+ref.write("Hello World")
+ref.close()
+ref=open("xyz.txt","r")                 
+data=ref.read()
+print(data)
+ref.close()
