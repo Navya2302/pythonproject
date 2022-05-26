@@ -1,0 +1,6 @@
+n=int(input("enter no. of lines: "))
+ref=open("xyz.txt","r")
+for i in range(n):                          
+    content=ref.readline()
+    print(content)
+ref.close()
