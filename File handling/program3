@@ -1,0 +1,8 @@
+ref=open("xyz.txt","a")
+ref.write("What Happend")
+ref.close()                          
+ref=open("xyz.txt","r")
+content=ref.read()
+print(content)
+ref.close()
+
