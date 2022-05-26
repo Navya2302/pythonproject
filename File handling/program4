@@ -1,0 +1,5 @@
+n=int(input("enter no. of lines: "))             
+with open ("xyz.txt") as f:
+                                        #print(list(f)[-n:])
+    print(f.readlines()[-n:])
+f.close()
