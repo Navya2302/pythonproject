@@ -1,0 +1,5 @@
+a=open("xyz.txt","r")                
+data=a.read()
+words=data.split()
+print(len(words))
+a.close()
