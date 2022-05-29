@@ -1,0 +1,6 @@
+def mul_num(a,b):
+mupltiply=a*b
+return multiply
+num1=int(input("Enter a number"))
+num2=int(input("Enter a number"))
+print("the product is",mul_num(num1,num2))
