@@ -1,0 +1,10 @@
+f1=open.("xyz.txt","r")
+content f1.read()
+print(len(content))
+f1.close
+f2=open.("xyz.txt","r")
+lines=f2..readlines()
+print(len(lines))
+f2.close()
+words=content.split()
+print(len(words))
