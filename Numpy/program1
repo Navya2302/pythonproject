@@ -1,0 +1,5 @@
+import numpy as np
+a=int(input())
+b=int(input())
+print(np.ones([a,b],dtype=int))
+print("after deleing\n ",np.empty([a,b]))
