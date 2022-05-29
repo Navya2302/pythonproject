@@ -1,0 +1,10 @@
+import numpy as np
+a=int(input('enter the size'))
+b=int(input('enter the size'))
+
+l=[]
+for i in range(a*b):
+  s=int(input("enter element"))
+  l.append(s)
+y=np.reshape(l,(a,b))
+print("median is ",np.median(y))
