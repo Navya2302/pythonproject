@@ -1,0 +1,15 @@
+import numpy as np
+a=int(input('enter the size'))
+b=int(input('enter the size'))
+
+l=[]
+l1=[]
+for i in range(a*b):
+  s=int(input("enter element"))
+  l.append(s)
+for i in range(a*b):
+  s=int(input("enter element"))
+  l1.append(s)
+m1=np.reshape(l,(a,b))
+m2=np.reshape(l1,(a,b))
+print(np.add(m1,m2))
